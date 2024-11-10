@@ -1,0 +1,334 @@
+```{r}
+library(tidyverse)
+library(sf)
+library(tmap)
+library(janitor)
+library(spatstat)
+library(here)
+library(sp)
+library(rgeos)
+library(maptools)
+library(geojson)
+library(geojsonio)
+library(tmaptools)
+library(units)
+library(GWmodel)
+```
+读取footfall hex和外伦敦的high street边界
+```{r}
+hex <- st_read("data/BT_350m_Hex/Hex350_grid_GLA.shp") %>%
+  st_transform(., 27700)
+
+high_streets <- st_read("data/high_street_boundary/high.shp") %>%
+  st_transform(., 27700)
+```
+
+```{r}
+# 计算在外伦敦高街范围内的footfall hex
+intersection_highstreet <- st_intersection(high_streets, hex)
+
+# 查看结果
+plot(intersection_highstreet)
+```
+
+
+```{r}
+# 保存交集图层
+st_write(intersection_highstreet, "data/footfall_hexID_in_high.csv",driver = 'CSV')
+
+#发现在R里处理得到的hex比在QGIS里直接处理得到的多
+```
+# 加载LSOA的中心点数据（导入在QGIS里算出的中心点）
+```{r}
+lsoa_centroids <- st_read("data/centriod/lsoa_centroids.shp") %>%
+  st_transform(., 27700)
+```
+# 导入基于LSOA的IMD
+```{r}
+IMD <- read.csv("data/deprivation_lsoa_no_coord.csv")
+```
+
+# 将LSOA中心点地理位置赋给IMD（LSOA单位）
+```{r}
+#merge boundaries and data
+lsoa_IMD <- lsoa_centroids%>%
+  left_join(.,
+            IMD, 
+            by = c("LSOA11NM" = "LSOA_name_2011"))
+```
+
+# 计算权重（近大远小原则）
+```{r}
+# 2. 计算多边形到点的距离矩阵
+distances <- st_distance(lsoa_IMD, high_streets)
+
+# 强制将距离单位设定为米（如果不是已经以米为单位）
+distances <- set_units(distances, "m", mode = "standard")
+
+# 将距离转换为无单位的数值对象
+distances_numeric <- drop_units(distances)
+
+# 1. 限制距离在1公里以内，超过1公里的点将不参与权重计算
+distance_limit <- 2000  # 1公里 = 1000米
+distances_numeric[distances_numeric > distance_limit] <- NA  # 将超过1公里的距离置为NA
+
+# 3. 设置权重指数 k 和防止距离为 0 的阈值
+k <- 1.5
+epsilon <- 10  # 无需再给 epsilon 设置单位
+weights <- 1 / (distances_numeric + epsilon)^k
+
+# 将NA的地方的权重设置为0
+weights[is.na(weights)] <- 0
+
+# 转换matrix
+weights_trans <- t(weights)
+```
+
+# 得到权重后，计算每个高街的社会经济指标
+```{r}
+# 4. 选择自变量列
+# 列出需要的自变量列名
+variables <- c("IMD_decile","IMD_rank","income_decile","income_rank","employment_decile","employment_rank","education_decile","health_decile","crime_decile","environment_decile")  
+
+# 5. 创建空列表来存储结果
+polygon_estimates_list <- list()
+
+# 6. 遍历自变量列，计算加权平均
+for (var in variables) {
+  # 提取当前自变量列的值
+  point_values <- lsoa_IMD[[var]]
+    
+  # 对自变量值进行加权平均
+  weighted_values <- weights_trans %*% point_values  # 矩阵乘法：权重 * 自变量值
+  normalized_weights <- colSums(weights)  # 对每个highstreet列求和，得到归一化权重
+    
+  # 防止归一化权重为 0 的情况
+  normalized_weights[normalized_weights == 0] <- epsilon
+    
+  # 计算每个多边形的估计自变量值
+  polygon_estimates <- weighted_values / normalized_weights
+    
+  # 将估计值存储到结果列表
+  polygon_estimates_list[[var]] <- polygon_estimates
+  
+  # high_streets_inverse_IDW[[paste0("inverse_", var)]] <- polygon_estimates_list[[var]]
+  high_streets[[paste0("test_", var)]] <- polygon_estimates_list[[var]]
+}
+```
+
+
+```{r}
+st_write(high_streets, "data/high_street_coef.csv", driver = "CSV")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+colnames(hex)[colnames(hex) == "Hex_ID"] <- "hex_id"
+```
+
+读取外伦敦的footfall csv
+```{r}
+difference_89 <- read.csv("/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/0-footfall/mean_8_9_visitor.csv")
+```
+
+right_join一下，保留全部csv的行
+```{r}
+footfall_difference_89_geo <- right_join(hex, difference_89, by = "hex_id")
+```
+
+```{r}
+print(footfall_difference_89_geo)
+```
+
+
+删除无用的列
+```{r}
+footfall_difference_89_geo <- footfall_difference_89_geo %>% select(-Col_ID, -Row_ID,-Centroid_X,-Centroid_Y,-area)
+```
+
+```{r}
+london_footfall_resident_geo_output <- london_footfall_geo_output %>% select(-daily_visitor,-daily_worker)
+```
+
+```{r eval=FALSE, include=FALSE}
+st_write(footfall_difference_89_geo, "/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/0-footfall/footfall_difference_89_geo.shp")
+
+```
+输出一份短一点的数据进行test
+```{r}
+test_data <- london_footfall_geo_output %>%
+  filter(count_date >= as.Date("2023-08-15") & count_date <= as.Date("2023-09-15"))
+```
+
+```{r}
+st_write(test_data, "/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/0-footfall/test_outer_footfall(8.15-9.15).shp")
+```
+
+```{r eval=FALSE, include=FALSE}
+gap <- st_read("/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/0-footfall/filtered_london_resident_geo.shp")
+```
+
+```{r}
+test_data$count_date <- as.Date(test_data$count_date)
+```
+
+```{r}
+base_data <- test_data %>%
+  filter(count_date == as.Date("2023-08-15")) %>%
+  select(hex_id, daily_resident)
+```
+
+```{r}
+
+# 如果test_data是sf对象，先转换为普通数据框
+test_data_df <- as.data.frame(test_data)
+base_data_df <- as.data.frame(base_data)
+
+# 使用left_join合并数据
+test_data_joined <- test_data_df %>%
+  left_join(base_data_df, by = "hex_id", suffix = c("", "_base")) %>%
+  mutate(resident_diff = daily_resident - daily_resident_base)
+```
+
+```{r}
+print(test_data_joined)
+```
+
+
+```{r}
+gap_output <- test_data_joined %>% select(-average_loyalty, -average_dwell,-daily_resident_base)
+```
+
+```{r}
+st_write(gap_output, "/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/0-footfall/test_gap1.shp")
+```
+
+处理spend data
+读取outer London的100m_grid geojson file
+```{r}
+grid <- st_read("/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/Transport data/Mastercard spend data/100m_grid.geojson")
+```
+读取spend data csv
+```{r}
+londonwide_spend <- read.csv("/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/1-spend/spend_londonwide.csv")
+```
+
+right_join保留grid下所有日期的spend data
+```{r}
+londonwide_spend_geo <- right_join(grid, londonwide_spend, by = "ldn_ref")
+```
+
+```{r}
+test_spend_data <- londonwide_spend_geo %>%
+  filter(count_date >= as.Date("2023-08-15") & count_date <= as.Date("2023-09-15"))
+```
+
+```{r}
+st_write(test_spend_data, "/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/1-spend/test_spend.shp")
+```
+```{r}
+if (requireNamespace("sf", quietly = TRUE)) {
+  library(sf)
+  data(cycle_hire)
+  # or
+  cycle_hire <- st_read(system.file("shapes/cycle_hire.geojson", package="spData"))
+  
+  plot(cycle_hire)
+}
+
+# 保存为CSV文件
+write.csv(as.data.frame(cycle_hire), "/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/Transport data/Cycle/cycle_hire.csv")
+
+# 如果是sf对象，保存为GeoJSON或其他GIS格式可能更有用
+st_write(cycle_hire, "/Users/xinyuwu/Library/CloudStorage/OneDrive-UniversityCollegeLondon/0-ULEZ/0-dataset/Transport data/Cycle/cycle_hire.geojson", driver = "GeoJSON")
+
+```
+
+
+
+
+
+
+
+
+
+

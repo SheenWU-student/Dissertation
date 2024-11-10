@@ -1,0 +1,407 @@
+highstre_1,convenience,leisure_service,retail_services
+"Acton Lane, South Acton.",1.0,3.0,4.0
+"Addington Road, Selsdon.",8.0,21.0,17.0
+"Alexandra Avenue, Rayners Lane.",26.0,45.0,36.0
+"Anerley Road, Anerley.",2.0,4.0,3.0
+"Anerley Road, Crystal Palace.",1.0,10.0,4.0
+"Archway Road, Highgate.",4.0,15.0,11.0
+"Arthur Road, Wimbledon",2.0,3.0,6.0
+"Balgores Lane, Station Road, Gidea Park",1.0,3.0,7.0
+"Ballards Lane, Finchley.",38.0,70.0,46.0
+"Barking Road (Balaam Street), Plaistow",21.0,37.0,32.0
+"Barking Road (Silvertown Way), Canning Town.",16.0,31.0,22.0
+"Barking Road, Wall End",0.0,5.0,4.0
+"Barkingside High Street, Barkingside",28.0,38.0,35.0
+"Barnehurst Road, Bexleyheath",1.0,2.0,5.0
+"Barnes High Street, Barnes.",19.0,20.0,24.0
+"Barnet Hill, High Barnet.",5.0,13.0,11.0
+"Bastable Avenue, Creekmouth",2.0,4.0,4.0
+"Bath Road, Cranford.",3.0,11.0,8.0
+"Bath Road, Hounslow West.",5.0,12.0,7.0
+"Beckenham Road, High Street, Beckenham",27.0,77.0,58.0
+"Becontree Avenue, Becontree.",1.0,1.0,2.0
+"Beulah Road, Thornton Heath.",1.0,7.0,8.0
+"Bexley High Street, Bexley.",11.0,24.0,22.0
+"Bexley Road, Erith.",7.0,12.0,18.0
+"Billet Road, Walthamstow.",1.0,2.0,1.0
+"Bittacy Hill, Dollis Road, Mill Hill East",8.0,8.0,10.0
+"Blackfen Road, Bexley.",7.0,10.0,15.0
+"Blendon Road, Bexley.",4.0,11.0,6.0
+"Boilton Road, Alperton.",3.0,9.0,6.0
+"Bounces Road, Edmonton.",0.0,4.0,6.0
+"Bounds Green Road, Bounds Green",3.0,5.0,9.0
+"Bowes Road (North Circular Road), Arnos Grove.",2.0,2.0,3.0
+"Bowes Road (Ravenscraig Road, Arnos Road), Arnos Grove.",8.0,10.0,8.0
+"Brent Street, Hendon.",37.0,44.0,44.0
+"Bridge Road, Chessington.",3.0,8.0,5.0
+"Bridge Road, Wembley Park.",9.0,15.0,10.0
+"Bridge Street, Pinner.",14.0,32.0,45.0
+"Brighton Road + Victoria Road, Surbiton.",18.0,50.0,42.0
+"Brighton Road, Purley",1.0,3.0,5.0
+"Brighton Road, Purley Oaks.",5.0,13.0,11.0
+"Brighton Road, Smitham.",11.0,39.0,27.0
+"Brighton Road, South Croydon.",0.0,0.0,2.0
+"Brigstock Road, Thornton Heath",1.0,0.0,1.0
+"Broad Street, Dagenham.",3.0,8.0,2.0
+"Broadway, Bexleyheath.",25.0,81.0,55.0
+"Broadway, Rainham.",3.0,12.0,8.0
+"Bromley Road, Enfield.",6.0,12.0,13.0
+"Bromley Road, Shortlands.",0.0,4.0,3.0
+"Burnside Avenue, Walthamstow.",0.0,1.0,1.0
+"Burnt Ash Lane, Sundridge Park.",3.0,5.0,5.0
+"Burnt Oak Broadway & Watling Avenue, Burnt Oak",45.0,51.0,56.0
+"Cannon Hill, Southgate",0.0,9.0,6.0
+"Canterbury Road, Thornton Heath",0.0,4.0,2.0
+"Carshalton Road, Carshalton.",2.0,1.0,1.0
+"Carshalton Road, High Street, Sutton.",45.0,109.0,70.0
+"Cartlton Drive, Barkingside",0.0,0.0,0.0
+"Cat Hill & East Barnet Road, East Barnet.",12.0,23.0,23.0
+"Central Parade, New Addington.",12.0,15.0,9.0
+"Central Road, Worcester Park.",14.0,37.0,44.0
+"Chamberlayne Road, Kensal Rise",8.0,17.0,14.0
+"Chase Cross Road, Collier Road.",6.0,22.0,18.0
+"Chatterton Road, Bromley.",2.0,11.0,7.0
+"Chigwell Road, Chigwell.",2.0,10.0,8.0
+"Chingford Mount Road, Walthamstow.",4.0,6.0,12.0
+"Chislehurst High Street, Chislehurst.",5.0,18.0,18.0
+Chiswick High Road,1.0,1.0,1.0
+"Chiswick High Road, Chiswick",47.0,95.0,79.0
+"Church Lane, Kinsbury.",4.0,10.0,8.0
+"Church Road, Willesden",14.0,16.0,9.0
+"Church Road, Woodgrange Park.",3.0,0.0,1.0
+"Church Street & Southbury Road, Enfield.",25.0,46.0,47.0
+"Cockfosters Road, Cockfosters.",4.0,7.0,7.0
+"Coldharbour Lane, Hayes + Harlington.",45.0,67.0,50.0
+"Collier Row Road, Collier Road.",2.0,4.0,2.0
+"Colney Hatch, Muswell Hill.",3.0,12.0,8.0
+"Coombe Lane + Kingston Road, Raynes Park.",3.0,15.0,15.0
+"Cotmandene Crescent, St Pauls Cray.",4.0,5.0,9.0
+"Cranbrook Road, Gants Hill.",1.0,4.0,4.0
+"Crayford High Street, Crayford.",16.0,42.0,32.0
+"Crescent Road, Alexandra Palace.",2.0,4.0,5.0
+"Cricklewood Broadway, Cricklewood.",35.0,68.0,51.0
+"Crofton Road, Locksbottom.",6.0,10.0,11.0
+Crouch End Hill & Tottenham Lane.,34.0,68.0,54.0
+"Crown Lane, Norwood",2.0,5.0,3.0
+"Croydon Road, Beckenham",2.0,4.0,5.0
+"Croydon Road, Elmers End.",3.0,13.0,9.0
+"Dandycombe Road, Station Parade, Kew Gardens.",9.0,18.0,13.0
+"Duck’s Hill Road, Ruislip.",4.0,1.0,1.0
+"Dudden Hill Lane, Dollis Hill",1.0,0.0,3.0
+"Durnsford Road, Wimbledon Park.",0.0,7.0,2.0
+"Ealing Road, High Street, Brentford.",8.0,36.0,14.0
+"Ealing Road, Wembley.",12.0,11.0,3.0
+"East Lane, North Wembley",3.0,8.0,2.0
+"Eastern Avenue, Gants Hill.",18.0,57.0,29.0
+"Eastern Avenue, Newbury Park.",9.0,13.0,11.0
+"Eastern Avenue, Redbridge Lane East, Redbridge",3.0,7.0,5.0
+"Edgware Road, Colindale.",14.0,30.0,27.0
+Edmonton Green HS,33.0,40.0,35.0
+"Elmers End Road, Birkbeck.",1.0,3.0,5.0
+"Empire Way, Wembley Park.",6.0,37.0,16.0
+"Epsom Road + Stonecroft Hill, Morden South.",1.0,8.0,12.0
+"Erith High Street, Erith.",8.0,16.0,14.0
+"Ewell Road (Ellerton Road), Tolworth",0.0,7.0,9.0
+"Ewell Road, Oak Hill",0.0,6.0,7.0
+"Falloden Way, East Finchley.",7.0,10.0,14.0
+"Farnham Road, Harold Hill.",17.0,9.0,14.0
+"Fencepiece Road, Fairlop.",3.0,1.0,2.0
+"Field End Road, Eastcote.",17.0,35.0,29.0
+"Finchley Road, Childs Hill",4.0,10.0,15.0
+"Finchley Road, Golders Green",24.0,14.0,32.0
+"First Avenue, Bush Hill.",1.0,5.0,6.0
+"Fore Street, Silver Street.",32.0,41.0,25.0
+"Forest Road & Palmerston Road, Walthamstow",6.0,9.0,10.0
+"Forest Road (Pembar Avenue), Blackhorse Road",3.0,3.0,3.0
+"Forest Road, Fairlop",0.0,2.0,1.0
+"Fortune Green Road, Fortune Green.",1.0,6.0,8.0
+"Francis Road, Leyton",3.0,4.0,4.0
+"Freemasons Road, Custom House.",2.0,5.0,2.0
+"Friern Barnet Road, Friern Barnet.",10.0,18.0,18.0
+"Friern Barnet Road, New Southgate.",3.0,5.0,2.0
+"Fulwell, Hampton",2.0,3.0,2.0
+"Gale Street, Becontree.",5.0,4.0,8.0
+"George Street & The Quadrant, Richmond.",30.0,122.0,77.0
+"Gloucester Road, Selhurst Road, Selhurst.",4.0,6.0,2.0
+"Godstone Road & Little Roke Road, Kenley",1.0,3.0,1.0
+"Golders Green Road, Golders Green.",29.0,53.0,31.0
+"Green Lane, Ilford.",6.0,6.0,8.0
+"Green Lane, Northwood.",7.0,22.0,18.0
+"Green Lanes (Compton Road), Winchmore Hill",8.0,17.0,18.0
+"Green Lanes (Vicars Moor Lane), Winchmore Hill",1.0,7.0,7.0
+"Green Lanes, Haringey",47.0,64.0,54.0
+"Green Lanes, Palmers Green.",21.0,54.0,49.0
+"Green Street and Plashet Road, Upton Park",96.0,80.0,61.0
+"Greenford Avenue, Drayton Green.",4.0,5.0,7.0
+"Greenford Road, Greenford.",1.0,1.0,1.0
+"Greenford Road, Sudbury Hill.",3.0,10.0,8.0
+"Grove Green Road, Leytonstone.",1.0,3.0,1.0
+"Grove Park Road, Mottingham.",3.0,8.0,7.0
+"Gunnersbury Lane, High Street, The Vale, Acton.",44.0,103.0,60.0
+"Gunnersbury, Hounslow",1.0,1.0,0.0
+"Hanger Lane, Ealing.",1.0,7.0,4.0
+"Harrow Road, Kensal Green.",4.0,7.0,1.0
+"Harrow Road, Sudbury and Harrow.",15.0,17.0,20.0
+"Harrow Road, Tokyngton",4.0,2.0,1.0
+"Hatch Lane, Chingford.",3.0,6.0,6.0
+"Haydons Road, Wimbledon",1.0,6.0,4.0
+"Haydon’s Road, Haydons Road.",1.0,2.0,1.0
+"Headstone Lane, Harrow",1.0,3.0,1.0
+"Heathway, Dagenham Heathway.",20.0,20.0,19.0
+"Hertford Road (Elizabeth Ride), Edmonton",3.0,5.0,5.0
+"Hertford Road (Sutherland Road), Edmonton",1.0,2.0,1.0
+"Hertford Road, Enfield Highway",14.0,22.0,19.0
+"Hertford Road, Enfield Wash",26.0,38.0,32.0
+"Hertford Road, Freezy Water",1.0,1.0,4.0
+"Hertford Road, Southbury",7.0,21.0,22.0
+"Heston Road, Heston.",1.0,6.0,3.0
+"High Road, Bruce Grove, White Hart Lane, Tottenham",50.0,93.0,71.0
+"High Road, Cowley Peachey",0.0,2.0,2.0
+"High Road, Cranbrook Road + Ilford Lane, Ilford.",86.0,138.0,77.0
+"High Road, East Finchley.",18.0,38.0,35.0
+"High Road, Harrow Weald.",4.0,8.0,3.0
+"High Road, Ickenham.",10.0,15.0,20.0
+"High Road, Leyton.",21.0,38.0,30.0
+"High Road, Seven Kings.",74.0,101.0,95.0
+"High Road, Stamford Hill / South Tottenham",23.0,15.0,14.0
+"High Road, Totteridge and Whetstone.",9.0,36.0,28.0
+"High Road, Wembley.",43.0,95.0,59.0
+"High Road, West Green Road, Seven Sisters",47.0,46.0,33.0
+"High Road, Willesden & Dudden Hill Lane.",46.0,89.0,66.0
+"High Road, Wood Green.",82.0,138.0,87.0
+"High Road, Woodford",25.0,62.0,58.0
+"High Road, Woodford Green",0.0,2.0,0.0
+"High Road, Woodside Park.",37.0,67.0,52.0
+"High Street & Portland Road, Norwood.",34.0,64.0,50.0
+"High Street & Staines Road, Hounslow Central.",61.0,116.0,63.0
+"High Street & Station Road, Cowley",0.0,1.0,0.0
+"High Street & The Broadway, The Avenue, Ealing.",68.0,194.0,96.0
+"High Street + Station Lane, Hornchurch. Butts Green Road + North Street, Emerson Park.",20.0,71.0,44.0
+"High Street + Station Road, Edgware.",44.0,72.0,73.0
+"High Street North, East Ham & Barking Road (Greengate Street), Plaistow",82.0,124.0,89.0
+"High Street South, East Ham.",2.0,2.0,4.0
+"High Street and Oxford Road, Uxbridge",30.0,78.0,54.0
+"High Street, Barnet.",21.0,55.0,57.0
+"High Street, Bromley",35.0,113.0,74.0
+"High Street, Carshalton.",5.0,20.0,15.0
+"High Street, Cheam.",10.0,32.0,31.0
+"High Street, Colliers Wood",7.0,26.0,12.0
+"High Street, Eden Street + Wood Street, Kingston. Kingston Hill, Norbiton.",56.0,183.0,87.0
+"High Street, Farnborough.",1.0,6.0,3.0
+"High Street, Feltham.",20.0,38.0,28.0
+"High Street, Green Street.",2.0,9.0,6.0
+"High Street, Hampton Hill.",7.0,26.0,22.0
+"High Street, Hampton Wick.",1.0,11.0,5.0
+"High Street, Harefield, Uxbridge",4.0,5.0,9.0
+"High Street, Harlesden.",59.0,67.0,51.0
+"High Street, Harrow on the Hill.",0.0,2.0,1.0
+"High Street, Hornchurch.",3.0,8.0,12.0
+"High Street, Hornsey.",2.0,18.0,12.0
+"High Street, New Malden",15.0,46.0,26.0
+"High Street, Northwood.",0.0,6.0,9.0
+"High Street, Orpington.",30.0,65.0,59.0
+"High Street, Plaistow.",3.0,4.0,4.0
+"High Street, Purley.",14.0,39.0,43.0
+"High Street, Ruislip.",16.0,30.0,38.0
+"High Street, Sidcup.",16.0,40.0,34.0
+"High Street, Southgate.",23.0,47.0,40.0
+"High Street, St Mary Cray",1.0,3.0,3.0
+"High Street, Teddington.",21.0,50.0,38.0
+"High Street, Thornton Heath. White Horse Road, Selhurst.",41.0,47.0,49.0
+"High Street, Wanstead.",18.0,33.0,29.0
+"High Street, Wealdstone.",26.0,42.0,28.0
+"High Street, West Drayton.",32.0,41.0,41.0
+"High Street, West Wickham.",18.0,40.0,47.0
+"High Street, Whitton.",17.0,28.0,31.0
+"High Street, Wimbledon.",11.0,22.0,16.0
+"High Street/Hoe Street, Walthamstow",94.0,169.0,118.0
+"Highgate High Street, Highgate.",6.0,8.0,10.0
+"Hook Road, Chessington.",6.0,7.0,11.0
+"Hook Road, Surbiton",2.0,2.0,8.0
+"Horn Lane, Acton.",3.0,5.0,7.0
+"Hornchurch Road, Hornchurch.",2.0,4.0,2.0
+Horsenden Lane North,1.0,1.0,0.0
+"Ilford Lane, Ilford.",3.0,1.0,2.0
+"Joel Street, Northwood Hills.",15.0,32.0,27.0
+"Katherine Road, East Ham.",2.0,2.0,4.0
+"Katherine Road, Woodgrange Park.",17.0,16.0,14.0
+"Kenton Lane, Harrow.",2.0,1.0,5.0
+"Kenton Road (Nash Way), Kenton.",10.0,19.0,16.0
+"Kenton Road (Woodcock Park), Kenton",1.0,8.0,14.0
+"Kew Bridge, Hounslow",0.0,3.0,1.0
+"Kilburn High Road, Kilburn.",53.0,109.0,86.0
+"Kilburn Lane, Queens Park.",15.0,21.0,20.0
+"Kings Head Hill, Chingford.",1.0,4.0,3.0
+"Kingsbury Road (Kingsbury Station), Kinsbury.",35.0,26.0,22.0
+"Kingsbury Road (Roe Green), Kinsbury.",0.0,11.0,6.0
+"Kingshill Avenue, Hillingdon.",3.0,8.0,5.0
+"Kingsley Road + Spring Grove Road, Hounslow.",5.0,6.0,6.0
+"Kingston Road (California Road, Dunbar Road), New Malden.",2.0,5.0,1.0
+"Kingston Road (Westbury Road, Sandal Road), New Malden.",3.0,3.0,5.0
+"Kingston Road, South Wimbledon",6.0,14.0,29.0
+"Kingston Road, Wimbledon Chase.",7.0,7.0,4.0
+"Lady Margaret Road, Greenford.",6.0,9.0,5.0
+"Lancaster Road & Baker Street & Chase Side, Enfield.",13.0,29.0,36.0
+"Lea Bridge Road/High Road, Leyton",51.0,78.0,54.0
+"Leytonstone High Road, Leytonstone.",31.0,69.0,62.0
+"Limpsfield Road, Riddlesdown.",1.0,5.0,9.0
+"Limpsfield Road, Warlingham",2.0,3.0,3.0
+"Links Way, Eden Park.",2.0,4.0,6.0
+"London Road & Clarkes Avenue, North Cheam",3.0,8.0,5.0
+"London Road (Cricket Green), Mitcham",0.0,3.0,3.0
+"London Road (Western Road), Mitcham",27.0,31.0,41.0
+"London Road + St John’s Road, Isleworth.",4.0,12.0,7.0
+"London Road + Thornton Road, Thornton Heath.",23.0,26.0,16.0
+"London Road, Morden.",27.0,46.0,29.0
+"London Road, Norbury.",27.0,52.0,30.0
+"London Road, North Cheam.",9.0,28.0,24.0
+"London Road, Romford.",59.0,156.0,95.0
+"London Road, Thornton Heath.",9.0,9.0,4.0
+"Long Lane & Heversham Road, Bexleyheath",3.0,5.0,10.0
+"Long Lane, Hillingdon.",4.0,9.0,10.0
+"Lordship Lane, White Hart Lane.",2.0,5.0,3.0
+"Lordship Lane, Wood Green.",6.0,11.0,12.0
+"Lower Addiscombe Road, Blackhorse Lane.",17.0,24.0,22.0
+"Lower Richmond Road, North Sheen.",4.0,0.0,5.0
+"Main Road, Biggin Hill",12.0,16.0,14.0
+"Main Road, Romford.",4.0,10.0,6.0
+"Main Road, Sidcup.",3.0,3.0,0.0
+"Mandeville Road, Northolt.",5.0,10.0,8.0
+"Manor Road, Wallington.",2.0,3.0,8.0
+"Maple Road, Green Lane & High Street, Parish Lane, Penge",25.0,54.0,39.0
+"Masons Hills, Bromley.",0.0,6.0,1.0
+"Midfield Parade, Bexleyheath",0.0,1.0,3.0
+"Mill Lane, West Hampstead.",0.0,5.0,10.0
+"Mitcham Road, Croydon.",3.0,4.0,2.0
+"Muswell Hill Road , Muswell Hill & Fortis Green Road, Muswell Hill",26.0,49.0,37.0
+"Neasden Lane, Neasden.",19.0,30.0,21.0
+"New North Road, Hainault",0.0,2.0,4.0
+"North Acton, Ealing",1.0,8.0,0.0
+"North Ealing, Ealing",3.0,3.0,3.0
+"North Street + Mill Lane, Carshalton.",0.0,4.0,1.0
+"North Street, Barking.",47.0,71.0,47.0
+"North Street, Romford.",1.0,0.0,3.0
+"Northfield Avenue, Northfields.",12.0,32.0,30.0
+"Northolt Road, Northolt Park.",11.0,10.0,10.0
+"Northolt Road, South Harrow.",34.0,36.0,29.0
+"Northway Circus, Barnet.",0.0,5.0,9.0
+"Nuxley Road, Belvedere.",3.0,12.0,12.0
+"Old Church Road, Chingford.",21.0,44.0,35.0
+"Old Hill & Station Approach, Chislehurst",1.0,4.0,3.0
+"Oldfield Lane North, Greenford.",3.0,5.0,1.0
+"Oldfields Circus, Southall",3.0,4.0,5.0
+"Oldfields Road, Sutton.",1.0,5.0,2.0
+"Ordnance Road, Enfield Lock",2.0,4.0,9.0
+Orpington Station,0.0,1.0,0.0
+"Oxlow Lane, Dagenham.",8.0,5.0,5.0
+"Park Avenue Road, Northumberland Park",2.0,3.0,2.0
+"Park Lane, White Hart Lane.",0.0,3.0,2.0
+"Penge Road, Norwood.",0.0,2.0,1.0
+"Pickford Lane + Avenue Lane, Bexleyheath.",3.0,12.0,9.0
+"Pied Heath Road, Hillingdon.",1.0,2.0,2.0
+"Pinner Green, Pinner.",2.0,3.0,3.0
+"Pinner Road, North Harrow.",11.0,24.0,20.0
+"Pinner Road, West Harrow.",5.0,4.0,9.0
+"Pittshanger Lane, Ealing.",5.0,12.0,13.0
+"Plaistow Lane, Sundridge Park.",1.0,3.0,4.0
+"Plaistow Road, Plaistow",3.0,8.0,8.0
+"Potter’s Road, Barnet.",0.0,1.0,1.0
+"Preston Road, Preston Road.",19.0,26.0,26.0
+"Queensbury Station Parade, Queensbury.",3.0,3.0,7.0
+"Queensway & Station Square, Petts Wood.",18.0,42.0,41.0
+"Rainham Road South, Church Elm Street, Dagenham.",8.0,13.0,9.0
+"Red Lion Road, Tolworth.",1.0,1.0,1.0
+"Richmond Road, Richmond.",3.0,11.0,9.0
+"Richmond Road, York Street, King Street, Heath Road + The Green, Twickenham",32.0,97.0,59.0
+"Ripple Road, Barking.",1.0,0.0,4.0
+"Romford Road, Little Ilford",3.0,4.0,5.0
+"Romford Road, Stratford.",1.0,1.0,0.0
+"Romford Road, Woodgrange Park.",17.0,32.0,22.0
+"Ruislip Road, Greenford.",34.0,34.0,29.0
+"Rush Green Road, Rush Green.",2.0,7.0,10.0
+"Sanderstead Road, South Croydon",3.0,3.0,0.0
+"Selsdon Park Road, Addington.",4.0,6.0,6.0
+"Seven Sisters Road & Blackstock Road, Finsbury Park & Stroud Green Road, Stroud Green",53.0,117.0,61.0
+"Seven Sisters Road, Seven Sisters.",1.0,4.0,3.0
+"Sheen Lane, Mortlake.",1.0,7.0,9.0
+"Sheen Road, Richmond.",1.0,4.0,5.0
+"Shirland Road, Maida Vale.",7.0,13.0,7.0
+"Sidcup Hill, Sidcup.",1.0,4.0,1.0
+"Silver Street, Silver Street.",0.0,2.0,1.0
+"Snakes Lane, Woodford.",5.0,13.0,18.0
+"South Road, Isleworth.",4.0,6.0,6.0
+"South Street, Ponders End",0.0,1.0,0.0
+"Southborough Lane, Petts Wood.",3.0,3.0,2.0
+"St John’s Road, Uxbridge.",0.0,0.0,0.0
+"St Margaret’s Road, St Margarets.",10.0,14.0,15.0
+"St Mary’s Lane + Corbets Tay Road, Upminster.",18.0,54.0,44.0
+"St Mary’s Road, South Ealing.",17.0,34.0,28.0
+"Stafford Road, Wallington.",16.0,42.0,39.0
+"Staines Road, Feltham.",4.0,10.0,11.0
+"Staines Road, Hounslow West.",0.0,6.0,2.0
+"Stanley Road, Fulwell.",1.0,5.0,4.0
+"Stanmore Hill, Stanmore.",0.0,1.0,4.0
+"Station Approach, Hayes.",4.0,9.0,11.0
+"Station Road & East Barnet Road, New Barnet.",12.0,31.0,37.0
+"Station Road + College Road, Harrow",44.0,100.0,57.0
+"Station Road North, Sidcup.",4.0,24.0,17.0
+"Station Road, Belmont",1.0,3.0,5.0
+"Station Road, Belvedere.",1.0,5.0,0.0
+"Station Road, Harold Wood.",2.0,4.0,6.0
+"Station Road, New Malden",2.0,4.0,5.0
+"Station Road, Winchmore Hill.",6.0,9.0,12.0
+"Station road, Chingford.",14.0,42.0,40.0
+"Stratford Broadway, Stratford High Street, Leytonstone Road, Stratford",53.0,118.0,68.0
+"Strawberry Hill, Twickenham",0.0,2.0,1.0
+"Streatfield Road, Queensbury.",15.0,15.0,15.0
+"Streatham Road, Mitcham Lane (Southcroft Road), Furzedown",1.0,4.0,0.0
+"Streatham Road, Mitcham.",6.0,5.0,4.0
+"Sutton’s Lane, Hornchurch.",1.0,7.0,6.0
+"The Avenue, Highams Park.",5.0,18.0,16.0
+"The Broadway, Elm Park",7.0,20.0,15.0
+"The Broadway, Hendon.",11.0,22.0,28.0
+"The Broadway, Mill Hill.",14.0,29.0,37.0
+"The Broadway, Stanmore.",8.0,23.0,20.0
+"The Broadway, Wimbledon",17.0,83.0,43.0
+"Thurston Road, Southall.",2.0,1.0,2.0
+"Tolworth Broadway + Ewell Road, Tolworth.",22.0,33.0,27.0
+Topsfield Parade.,2.0,8.0,8.0
+"Twickenham Road, Isleworth",2.0,4.0,5.0
+"Upminster Road, Upminster.",1.0,8.0,6.0
+"Upper Mulgrave Road, Cheam.",0.0,3.0,5.0
+"Upper Richmond Road, North Sheen.",22.0,51.0,48.0
+"Upton Lane, West Ham.",1.0,1.0,0.0
+"Uxbridge Road, Ealing Common",6.0,13.0,8.0
+"Uxbridge Road, Hanwell.",15.0,36.0,30.0
+"Uxbridge Road, Harrow.",4.0,24.0,19.0
+"Uxbridge Road, Hayes",14.0,26.0,18.0
+"Uxbridge Road, Hayes End",1.0,6.0,7.0
+"Uxbridge Road, Hillingdon Heath",6.0,16.0,19.0
+"Uxbridge Road, The Broadway, South Road, High Street, Western Road, King Street, Southall",72.0,112.0,65.0
+"Vera Avenue, The Grangeway, Grange Park",1.0,4.0,3.0
+"Vicarage Farn Road, Heston.",3.0,4.0,3.0
+"Victoria Road, Ruislip Manor.",12.0,33.0,34.0
+"Victoria Road, South Ruislip + Long Drive.",3.0,9.0,9.0
+"Watford Road, North Wembley.",1.0,1.0,3.0
+"Watford Way, Hendon.",18.0,36.0,37.0
+"Waverley Way, Carshalton",3.0,9.0,8.0
+"Welling High Street + Upper Wickham Lane, Welling.",33.0,80.0,83.0
+"West Green Road, West Green.",2.0,6.0,4.0
+"West Wickham, West Wickham.",1.0,6.0,3.0
+"Western Avenue (Park Royal), Ealing",2.0,2.0,2.0
+"Western Avenue/Greenford Road, Greenford",1.0,1.0,2.0
+"Westow Hill & Church Road, Crystal Palace.",15.0,64.0,32.0
+"Westway, East Acton.",7.0,11.0,7.0
+"Whalebone Lane + Wood Lane, Wood Lane.",13.0,15.0,13.0
+"Whitchurch Lane, Stanmore Marsh, Canons Park",4.0,8.0,7.0
+"White Horse Road + Windmill Road, Lower Addiscombe Road, North End, Croydon.",129.0,300.0,189.0
+"Willesden Lane, Brondesbury.",1.0,2.0,1.0
+"Wilton Road & Harrow Manorway, Abbey Wood",4.0,6.0,4.0
+"Windermere Avenue, South Kenton",0.0,0.0,2.0
+"Windmill Hill, Enfield.",1.0,4.0,6.0
+"Windsor Drive & Station Approach, Orpington",0.0,3.0,4.0
+"Wood Street, Wood Street.",21.0,32.0,29.0
+"Woodgrange Road & Romford Road, Forest Gate.",50.0,51.0,55.0
+"Wrythe Lane, St Hellier.",4.0,11.0,10.0
+"Yeading Lane & Church Road, Yeading.",7.0,3.0,7.0
+"Yeading Lane, Hillingdon.",2.0,5.0,3.0
